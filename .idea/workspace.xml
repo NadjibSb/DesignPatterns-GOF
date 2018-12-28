@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="099264e4-029b-4e63-8197-1b519b1d1865" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Observer/Magasin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Observer/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Observer/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Observer/Topic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Observer/TopicSubscriber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TemplateMethode/CarBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TemplateMethode/Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TemplateMethode/FerrariBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TemplateMethode/RenaultBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPatterns-GOF/State/State-UML.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPatterns-GOF/State/State-UML.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/State/State-UML.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/State/State-UML.png" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,51 +20,235 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Visitor/CalculeNbVisitor.java">
+        <entry file="file://$PROJECT_DIR$/src/TemplateMethode/CarBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+            <state relative-caret-position="144">
+              <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Observer/Topic.java">
+        <entry file="file://$PROJECT_DIR$/src/TemplateMethode/FerrariBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="38" column="31" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
+            <state relative-caret-position="36">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#123#124#0" expanded="true" />
+                <element signature="e#188#189#0" expanded="true" />
+                <element signature="e#354#355#0" expanded="true" />
+                <element signature="e#417#418#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Observer/Subject.java">
+        <entry file="file://$PROJECT_DIR$/src/TemplateMethode/RenaultBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Observer/Observer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+            <state relative-caret-position="288">
+              <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+              <folding>
+                <element signature="e#124#125#0" expanded="true" />
+                <element signature="e#188#189#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Observer/TopicSubscriber.java">
+        <entry file="file://$PROJECT_DIR$/src/TemplateMethode/Factory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="12" column="64" lean-forward="true" selection-start-line="12" selection-start-column="64" selection-end-line="12" selection-end-column="64" />
+            <state relative-caret-position="54">
+              <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Visitor/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/Visitor">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>Visitor</OriginalElement>
+              <nodes>
+                <node x="689.4865269461079" y="382.7245508982036">Visitor.Dossier</node>
+                <node x="547.4341317365269" y="801.8922155688623">Visitor.Main</node>
+                <node x="806.0" y="202.0">Visitor.Element</node>
+                <node x="228.44161676646718" y="200.35179640718565">Visitor.Visitor</node>
+                <node x="122.78143712574843" y="405.1077844311377">Visitor.CalculeNbVisitor</node>
+                <node x="1029.0988023952095" y="376.99700598802394">Visitor.Fichier</node>
+                <node x="380.53143712574854" y="407.7889221556886">Visitor.CalculeTailleVisitor</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="Visitor.Main" target="Visitor.CalculeTailleVisitor">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="Visitor.CalculeNbVisitor" target="Visitor.Element">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="Visitor.Fichier" target="Visitor.Element">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="Visitor.Dossier" target="Visitor.Visitor">
+                  <point x="0.0" y="-5.032102325091728" />
+                  <point x="0.0" y="-5.032102325091728" />
+                </edge>
+                <edge source="Visitor.CalculeNbVisitor" target="Visitor.Visitor">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="Visitor.Dossier" target="Visitor.Element">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="Visitor.Visitor" target="Visitor.Fichier">
+                  <point x="4.69960302672871" y="-1.7069655506665526" />
+                  <point x="4.69960302672871" y="-1.7069655506665242" />
+                </edge>
+                <edge source="Visitor.Element" target="Visitor.Visitor">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="Visitor.CalculeNbVisitor" target="Visitor.Fichier">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="Visitor.Main" target="Visitor.Dossier">
+                  <point x="-4.879932765288345" y="1.0891538946655714" />
+                  <point x="-4.879932765288345" y="1.0891538946655714" />
+                </edge>
+                <edge source="Visitor.CalculeNbVisitor" target="Visitor.Dossier">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="Visitor.Main" target="Visitor.Fichier">
+                  <point x="-1.23021334359305" y="-4.846294989911939" />
+                  <point x="-1.23021334359305" y="-4.846294989911939" />
+                </edge>
+                <edge source="Visitor.CalculeTailleVisitor" target="Visitor.Fichier">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="Visitor.Main" target="Visitor.CalculeNbVisitor">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="Visitor.CalculeTailleVisitor" target="Visitor.Dossier">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="Visitor.CalculeTailleVisitor" target="Visitor.Element">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="Visitor.CalculeTailleVisitor" target="Visitor.Visitor">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="Visitor.Fichier" target="Visitor.Visitor">
+                  <point x="-5.3195982421949" y="0.0" />
+                  <point x="-5.3195982421949" y="0.0" />
+                </edge>
+                <edge source="Visitor.Visitor" target="Visitor.Dossier">
+                  <point x="0.5638774946578451" y="4.9681024718717595" />
+                  <point x="0.5638774946578451" y="4.9681024718717595" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.723726977248104" x="147.1347305389221" y="321.6167664670659" />
+              <SelectedNodes>
+                <node>Visitor.Main</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Fields</Category>
+                <Category>Methods</Category>
+                <Category>Constructors</Category>
+                <Category>Properties</Category>
+                <Category>Inner Classes</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/TemplateMethode">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>TemplateMethode</OriginalElement>
+              <nodes>
+                <node x="283.0" y="316.0">TemplateMethode.RenaultBuilder</node>
+                <node x="27.0" y="315.0">TemplateMethode.FerrariBuilder</node>
+                <node x="146.0" y="133.0">TemplateMethode.CarBuilder</node>
+                <node x="158.0" y="520.0">TemplateMethode.Factory</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="TemplateMethode.Factory" target="TemplateMethode.FerrariBuilder">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="TemplateMethode.FerrariBuilder" target="TemplateMethode.CarBuilder">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="TemplateMethode.Factory" target="TemplateMethode.CarBuilder">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="TemplateMethode.RenaultBuilder" target="TemplateMethode.CarBuilder">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="TemplateMethode.Factory" target="TemplateMethode.RenaultBuilder">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="-85.5" y="161.0" />
+              <SelectedNodes>
+                <node>TemplateMethode.Factory</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Fields</Category>
+                <Category>Constructors</Category>
+                <Category>Methods</Category>
+                <Category>Properties</Category>
+                <Category>Inner Classes</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Strategy/SreetFighter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Visitor/Visitor-UML.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -71,15 +256,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
               <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/State/ConnectedApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -112,6 +288,12 @@
         <option value="$PROJECT_DIR$/src/Observer/Topic.java" />
         <option value="$PROJECT_DIR$/src/Observer/Magasin.java" />
         <option value="$PROJECT_DIR$/src/Observer/TopicSubscriber.java" />
+        <option value="$PROJECT_DIR$/src/TemplateMethode/CarBuilder.java" />
+        <option value="$PROJECT_DIR$/src/Visitor/Fichier.java" />
+        <option value="$PROJECT_DIR$/src/TemplateMethode/RenaultBuilder.java" />
+        <option value="$PROJECT_DIR$/src/TemplateMethode/FerariBuilder.java" />
+        <option value="$PROJECT_DIR$/src/TemplateMethode/FerrariBuilder.java" />
+        <option value="$PROJECT_DIR$/src/TemplateMethode/Factory.java" />
       </list>
     </option>
   </component>
@@ -130,6 +312,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -146,20 +329,25 @@
               <item name="DesignPatterns-GOF" type="b2602c69:ProjectViewProjectNode" />
               <item name="DesignPatterns-GOF" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Observer" type="462c0819:PsiDirectoryNode" />
+              <item name="TemplateMethode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignPatterns-GOF" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPatterns-GOF" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Visitor" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545963254348" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546020307829" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/State" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -182,13 +370,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Magasin">
+  <component name="RunManager" selected="Application.Factory">
     <configuration name="ConnectedApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="State.ConnectedApp" />
       <module name="DesignPatterns-GOF" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="State.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Factory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TemplateMethode.Factory" />
+      <module name="DesignPatterns-GOF" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TemplateMethode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -237,8 +438,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Magasin" />
+        <item itemvalue="Application.Factory" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Magasin" />
         <item itemvalue="Application.SreetFighter" />
         <item itemvalue="Application.ConnectedApp" />
       </list>
@@ -255,18 +457,20 @@
       <option name="presentableId" value="Default" />
       <updated>1545958985734</updated>
       <workItem from="1545958986976" duration="1976000" />
-      <workItem from="1545961340226" duration="1913000" />
+      <workItem from="1545961340226" duration="3238000" />
+      <workItem from="1546019029763" duration="1144000" />
+      <workItem from="1546034035515" duration="273000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3889000" />
+    <option name="totallyTimeSpent" value="6631000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="57" y="25" width="1543" height="875" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25317302" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25985304" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -275,7 +479,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32871014" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32871014" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -285,7 +489,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.33009708" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32871014" />
+      <window_info anchor="bottom" id="Messages" order="12" visible="true" weight="0.32871014" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -325,125 +529,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Strategy/strategy-UML.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Strategy/SreetFighter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/State">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>State</OriginalElement>
-          <nodes>
-            <node x="0.0" y="163.0">State.ConnectionEstablished</node>
-            <node x="246.0" y="163.0">State.ConnectionOpened</node>
-            <node x="345.25370370370376" y="714.0">State.ConnectedApp</node>
-            <node x="492.0" y="163.0">State.ConnectionClosed</node>
-            <node x="523.3444444444445" y="0.0">State.ConnectionState</node>
-            <node x="250.25370370370376" y="366.0">State.Connection</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="State.ConnectionState" target="State.Connection">
-              <point x="18.83333333333337" y="51.5" />
-              <point x="655.1777777777779" y="143.0" />
-              <point x="728.5" y="143.0" />
-              <point x="728.5" y="326.0" />
-              <point x="573.5870370370371" y="326.0" />
-              <point x="129.33333333333337" y="-149.0" />
-            </edge>
-            <edge source="State.ConnectionClosed" target="State.Connection">
-              <point x="84.75" y="51.5" />
-              <point x="689.75" y="316.0" />
-              <point x="547.7203703703705" y="316.0" />
-              <point x="103.4666666666667" y="-149.0" />
-            </edge>
-            <edge source="State.Connection" target="State.ConnectionOpened">
-              <point x="-51.73333333333335" y="-149.0" />
-              <point x="392.5203703703704" y="296.0" />
-              <point x="330.75" y="296.0" />
-              <point x="-28.25" y="51.5" />
-            </edge>
-            <edge source="State.Connection" target="State.ConnectionState">
-              <point x="181.06666666666672" y="-149.0" />
-              <point x="625.3203703703705" y="346.0" />
-              <point x="750.5" y="346.0" />
-              <point x="750.5" y="123.0" />
-              <point x="730.5111111111112" y="123.0" />
-              <point x="94.16666666666663" y="51.5" />
-            </edge>
-            <edge source="State.ConnectedApp" target="State.Connection">
-              <point x="49.5" y="-27.5" />
-              <point x="493.75370370370376" y="689.0" />
-              <point x="541.2537037037038" y="689.0" />
-              <point x="97.0" y="149.0" />
-            </edge>
-            <edge source="State.ConnectionOpened" target="State.Connection">
-              <point x="84.75" y="51.5" />
-              <point x="0.0" y="-149.0" />
-            </edge>
-            <edge source="State.Connection" target="State.ConnectionClosed">
-              <point x="51.73333333333335" y="-149.0" />
-              <point x="495.9870370370371" y="296.0" />
-              <point x="576.75" y="296.0" />
-              <point x="-28.25" y="51.5" />
-            </edge>
-            <edge source="State.ConnectionClosed" target="State.ConnectionState">
-              <point x="0.0" y="-51.5" />
-              <point x="605.0" y="143.0" />
-              <point x="617.5111111111112" y="143.0" />
-              <point x="-18.83333333333337" y="51.5" />
-            </edge>
-            <edge source="State.ConnectionOpened" target="State.ConnectionState">
-              <point x="0.0" y="-51.5" />
-              <point x="359.0" y="143.0" />
-              <point x="579.8444444444445" y="143.0" />
-              <point x="-56.5" y="51.5" />
-            </edge>
-            <edge source="State.Connection" target="State.ConnectionEstablished">
-              <point x="-181.06666666666672" y="-149.0" />
-              <point x="263.18703703703704" y="346.0" />
-              <point x="28.25" y="346.0" />
-              <point x="-84.75" y="51.5" />
-            </edge>
-            <edge source="State.ConnectionEstablished" target="State.Connection">
-              <point x="84.75" y="51.5" />
-              <point x="197.75" y="316.0" />
-              <point x="340.78703703703707" y="316.0" />
-              <point x="-103.4666666666667" y="-149.0" />
-            </edge>
-            <edge source="State.ConnectionEstablished" target="State.ConnectionState">
-              <point x="0.0" y="-51.5" />
-              <point x="113.0" y="133.0" />
-              <point x="542.1777777777779" y="133.0" />
-              <point x="-94.16666666666663" y="51.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.8466413181242078" x="-4.0" y="273.0" />
-          <SelectedNodes>
-            <node>State.ConnectionEstablished</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Constructors</Category>
-            <Category>Methods</Category>
-            <Category>Properties</Category>
-            <Category>Inner Classes</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/State/State-UML.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Visitor/CalculeNbVisitor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -472,6 +557,147 @@
         </state>
       </provider>
     </entry>
+    <entry file="uml://JAVA/Observer">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>Observer</OriginalElement>
+          <nodes>
+            <node x="0.0" y="18.0">Observer.TopicSubscriber</node>
+            <node x="67.0" y="333.0">Observer.Magasin</node>
+            <node x="275.0" y="0.0">Observer.Subject</node>
+            <node x="192.0" y="189.0">Observer.Observer</node>
+            <node x="307.0" y="310.0">Observer.Topic</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="Observer.Magasin" target="Observer.TopicSubscriber">
+              <point x="5.077349917514809" y="0.0" />
+              <point x="5.077349917514795" y="0.0" />
+            </edge>
+            <edge source="Observer.Magasin" target="Observer.Topic">
+              <point x="0.9225456395435572" y="-4.914154000736971" />
+              <point x="0.9225456395435572" y="-4.914154000736971" />
+            </edge>
+            <edge source="Observer.Subject" target="Observer.Observer">
+              <point x="6.300352723811926" y="0.0" />
+              <point x="6.30035272381194" y="0.0" />
+            </edge>
+            <edge source="Observer.TopicSubscriber" target="Observer.Subject">
+              <point x="0.0" y="5.011335924893203" />
+              <point x="0.0" y="5.011335924893203" />
+            </edge>
+            <edge source="Observer.Topic" target="Observer.Subject">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="Observer.Observer" target="Observer.Subject">
+              <point x="-3.968031806459578" y="-3.0421577182856794" />
+              <point x="-3.968031806459578" y="-3.042157718285665" />
+            </edge>
+            <edge source="Observer.TopicSubscriber" target="Observer.Observer">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="Observer.Topic" target="Observer.Observer">
+              <point x="-3.7296883081295675" y="3.330078846544268" />
+              <point x="-3.7296883081295746" y="3.330078846544261" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.6771653543307087" x="-216.0" y="344.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/State">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>State</OriginalElement>
+          <nodes>
+            <node x="223.53720930232566" y="116.0906976744186">State.ConnectionEstablished</node>
+            <node x="-64.2209302325582" y="113.22093023255826">State.ConnectionOpened</node>
+            <node x="238.34883720930213" y="659.1">State.ConnectedApp</node>
+            <node x="502.80697674418593" y="115.59767441860464">State.ConnectionClosed</node>
+            <node x="145.0" y="263.0">State.Connection</node>
+            <node x="222.9627906976741" y="-55.230232558139505">State.ConnectionState</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="State.ConnectionState" target="State.Connection">
+              <point x="10.072233354458646" y="0.0" />
+              <point x="10.072233354458632" y="0.0" />
+            </edge>
+            <edge source="State.ConnectionClosed" target="State.Connection">
+              <point x="19.729113289944536" y="0.0" />
+              <point x="0.0" y="23.092030328003247" />
+            </edge>
+            <edge source="State.Connection" target="State.ConnectionOpened">
+              <point x="6.177341039404922" y="0.0" />
+              <point x="6.177341039404894" y="0.0" />
+            </edge>
+            <edge source="State.Connection" target="State.ConnectionState">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="State.ConnectedApp" target="State.Connection">
+              <point x="5.007996023091323" y="0.0" />
+              <point x="5.007996023091323" y="-7.105427357601002E-15" />
+            </edge>
+            <edge source="State.ConnectionOpened" target="State.Connection">
+              <point x="18.532023118214795" y="0.0" />
+              <point x="18.532023118214767" y="0.0" />
+            </edge>
+            <edge source="State.Connection" target="State.ConnectionClosed">
+              <point x="0.0" y="-23.092030328003226" />
+              <point x="-19.729113289944593" y="0.0" />
+            </edge>
+            <edge source="State.ConnectionClosed" target="State.ConnectionState">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="State.ConnectionOpened" target="State.ConnectionState">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="State.Connection" target="State.ConnectionEstablished">
+              <point x="0.0" y="-16.411846654547027" />
+              <point x="0.0" y="-16.41184665454705" />
+            </edge>
+            <edge source="State.ConnectionEstablished" target="State.Connection">
+              <point x="2.8421709430404007E-14" y="16.41184665454702" />
+              <point x="0.0" y="16.41184665454702" />
+            </edge>
+            <edge source="State.ConnectionEstablished" target="State.ConnectionState">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.5449936628643853" x="-210.0" y="420.0" />
+          <SelectedNodes>
+            <node>State.ConnectedApp</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Observer/Topic.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -482,6 +708,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Observer/TopicSubscriber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Observer/Observer-UML.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/State/State-UML.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Strategy/strategy-UML.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Visitor/Fichier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Visitor/Dossier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Strategy/SreetFighter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Visitor/Visitor-UML.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Observer/Magasin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -489,10 +755,207 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Observer/TopicSubscriber.java">
+    <entry file="file://$PROJECT_DIR$/src/Visitor/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="12" column="64" lean-forward="true" selection-start-line="12" selection-start-column="64" selection-end-line="12" selection-end-column="64" />
+        <state relative-caret-position="234">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/Visitor">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>Visitor</OriginalElement>
+          <nodes>
+            <node x="689.4865269461079" y="382.7245508982036">Visitor.Dossier</node>
+            <node x="547.4341317365269" y="801.8922155688623">Visitor.Main</node>
+            <node x="806.0" y="202.0">Visitor.Element</node>
+            <node x="228.44161676646718" y="200.35179640718565">Visitor.Visitor</node>
+            <node x="122.78143712574843" y="405.1077844311377">Visitor.CalculeNbVisitor</node>
+            <node x="1029.0988023952095" y="376.99700598802394">Visitor.Fichier</node>
+            <node x="380.53143712574854" y="407.7889221556886">Visitor.CalculeTailleVisitor</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="Visitor.Main" target="Visitor.CalculeTailleVisitor">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="Visitor.CalculeNbVisitor" target="Visitor.Element">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="Visitor.Fichier" target="Visitor.Element">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="Visitor.Dossier" target="Visitor.Visitor">
+              <point x="0.0" y="-5.032102325091728" />
+              <point x="0.0" y="-5.032102325091728" />
+            </edge>
+            <edge source="Visitor.CalculeNbVisitor" target="Visitor.Visitor">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="Visitor.Dossier" target="Visitor.Element">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="Visitor.Visitor" target="Visitor.Fichier">
+              <point x="4.69960302672871" y="-1.7069655506665526" />
+              <point x="4.69960302672871" y="-1.7069655506665242" />
+            </edge>
+            <edge source="Visitor.Element" target="Visitor.Visitor">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="Visitor.CalculeNbVisitor" target="Visitor.Fichier">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="Visitor.Main" target="Visitor.Dossier">
+              <point x="-4.879932765288345" y="1.0891538946655714" />
+              <point x="-4.879932765288345" y="1.0891538946655714" />
+            </edge>
+            <edge source="Visitor.CalculeNbVisitor" target="Visitor.Dossier">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="Visitor.Main" target="Visitor.Fichier">
+              <point x="-1.23021334359305" y="-4.846294989911939" />
+              <point x="-1.23021334359305" y="-4.846294989911939" />
+            </edge>
+            <edge source="Visitor.CalculeTailleVisitor" target="Visitor.Fichier">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="Visitor.Main" target="Visitor.CalculeNbVisitor">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="Visitor.CalculeTailleVisitor" target="Visitor.Dossier">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="Visitor.CalculeTailleVisitor" target="Visitor.Element">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="Visitor.CalculeTailleVisitor" target="Visitor.Visitor">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="Visitor.Fichier" target="Visitor.Visitor">
+              <point x="-5.3195982421949" y="0.0" />
+              <point x="-5.3195982421949" y="0.0" />
+            </edge>
+            <edge source="Visitor.Visitor" target="Visitor.Dossier">
+              <point x="0.5638774946578451" y="4.9681024718717595" />
+              <point x="0.5638774946578451" y="4.9681024718717595" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.723726977248104" x="147.1347305389221" y="321.6167664670659" />
+          <SelectedNodes>
+            <node>Visitor.Main</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+            <Category>Constructors</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/TemplateMethode">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>TemplateMethode</OriginalElement>
+          <nodes>
+            <node x="283.0" y="316.0">TemplateMethode.RenaultBuilder</node>
+            <node x="27.0" y="315.0">TemplateMethode.FerrariBuilder</node>
+            <node x="146.0" y="133.0">TemplateMethode.CarBuilder</node>
+            <node x="158.0" y="520.0">TemplateMethode.Factory</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="TemplateMethode.Factory" target="TemplateMethode.FerrariBuilder">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="TemplateMethode.FerrariBuilder" target="TemplateMethode.CarBuilder">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="TemplateMethode.Factory" target="TemplateMethode.CarBuilder">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="TemplateMethode.RenaultBuilder" target="TemplateMethode.CarBuilder">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="TemplateMethode.Factory" target="TemplateMethode.RenaultBuilder">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-85.5" y="161.0" />
+          <SelectedNodes>
+            <node>TemplateMethode.Factory</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TemplateMethode/RenaultBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+          <folding>
+            <element signature="e#124#125#0" expanded="true" />
+            <element signature="e#188#189#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TemplateMethode/FerrariBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding>
+            <element signature="e#123#124#0" expanded="true" />
+            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TemplateMethode/CarBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TemplateMethode/Factory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
         </state>
       </provider>
     </entry>

@@ -2,13 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="099264e4-029b-4e63-8197-1b519b1d1865" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/TemplateMethode/CarBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TemplateMethode/Factory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TemplateMethode/FerrariBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TemplateMethode/RenaultBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Command/Light.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Command/LightOffCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Command/LightOnCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Command/Music.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Command/MusicOffCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Command/MusicOnCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Command/MusicVolumeCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Command/RemoteControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Command/RemoteControlTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatterns-GOF/State/State-UML.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPatterns-GOF/State/State-UML.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/State/State-UML.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/State/State-UML.png" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,242 +24,132 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TemplateMethode/CarBuilder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TemplateMethode/FerrariBuilder.java">
+        <entry file="file://$PROJECT_DIR$/src/Command/Command.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="36">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Command/LightOnCommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
               <folding>
-                <element signature="e#123#124#0" expanded="true" />
-                <element signature="e#188#189#0" expanded="true" />
-                <element signature="e#354#355#0" expanded="true" />
-                <element signature="e#417#418#0" expanded="true" />
+                <element signature="e#128#129#0" expanded="true" />
+                <element signature="e#161#162#0" expanded="true" />
+                <element signature="e#204#205#0" expanded="true" />
+                <element signature="e#223#224#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TemplateMethode/RenaultBuilder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
-              <folding>
-                <element signature="e#124#125#0" expanded="true" />
-                <element signature="e#188#189#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/TemplateMethode/Factory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Visitor/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="uml://JAVA/Visitor">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>JAVA</ID>
-              <OriginalElement>Visitor</OriginalElement>
-              <nodes>
-                <node x="689.4865269461079" y="382.7245508982036">Visitor.Dossier</node>
-                <node x="547.4341317365269" y="801.8922155688623">Visitor.Main</node>
-                <node x="806.0" y="202.0">Visitor.Element</node>
-                <node x="228.44161676646718" y="200.35179640718565">Visitor.Visitor</node>
-                <node x="122.78143712574843" y="405.1077844311377">Visitor.CalculeNbVisitor</node>
-                <node x="1029.0988023952095" y="376.99700598802394">Visitor.Fichier</node>
-                <node x="380.53143712574854" y="407.7889221556886">Visitor.CalculeTailleVisitor</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="Visitor.Main" target="Visitor.CalculeTailleVisitor">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="Visitor.CalculeNbVisitor" target="Visitor.Element">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="Visitor.Fichier" target="Visitor.Element">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="Visitor.Dossier" target="Visitor.Visitor">
-                  <point x="0.0" y="-5.032102325091728" />
-                  <point x="0.0" y="-5.032102325091728" />
-                </edge>
-                <edge source="Visitor.CalculeNbVisitor" target="Visitor.Visitor">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="Visitor.Dossier" target="Visitor.Element">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="Visitor.Visitor" target="Visitor.Fichier">
-                  <point x="4.69960302672871" y="-1.7069655506665526" />
-                  <point x="4.69960302672871" y="-1.7069655506665242" />
-                </edge>
-                <edge source="Visitor.Element" target="Visitor.Visitor">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="Visitor.CalculeNbVisitor" target="Visitor.Fichier">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="Visitor.Main" target="Visitor.Dossier">
-                  <point x="-4.879932765288345" y="1.0891538946655714" />
-                  <point x="-4.879932765288345" y="1.0891538946655714" />
-                </edge>
-                <edge source="Visitor.CalculeNbVisitor" target="Visitor.Dossier">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="Visitor.Main" target="Visitor.Fichier">
-                  <point x="-1.23021334359305" y="-4.846294989911939" />
-                  <point x="-1.23021334359305" y="-4.846294989911939" />
-                </edge>
-                <edge source="Visitor.CalculeTailleVisitor" target="Visitor.Fichier">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="Visitor.Main" target="Visitor.CalculeNbVisitor">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="Visitor.CalculeTailleVisitor" target="Visitor.Dossier">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="Visitor.CalculeTailleVisitor" target="Visitor.Element">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="Visitor.CalculeTailleVisitor" target="Visitor.Visitor">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="Visitor.Fichier" target="Visitor.Visitor">
-                  <point x="-5.3195982421949" y="0.0" />
-                  <point x="-5.3195982421949" y="0.0" />
-                </edge>
-                <edge source="Visitor.Visitor" target="Visitor.Dossier">
-                  <point x="0.5638774946578451" y="4.9681024718717595" />
-                  <point x="0.5638774946578451" y="4.9681024718717595" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="0.723726977248104" x="147.1347305389221" y="321.6167664670659" />
-              <SelectedNodes>
-                <node>Visitor.Main</node>
-              </SelectedNodes>
-              <Categories>
-                <Category>Fields</Category>
-                <Category>Methods</Category>
-                <Category>Constructors</Category>
-                <Category>Properties</Category>
-                <Category>Inner Classes</Category>
-              </Categories>
-              <SCOPE>All</SCOPE>
-              <VISIBILITY>private</VISIBILITY>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="uml://JAVA/TemplateMethode">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>JAVA</ID>
-              <OriginalElement>TemplateMethode</OriginalElement>
-              <nodes>
-                <node x="283.0" y="316.0">TemplateMethode.RenaultBuilder</node>
-                <node x="27.0" y="315.0">TemplateMethode.FerrariBuilder</node>
-                <node x="146.0" y="133.0">TemplateMethode.CarBuilder</node>
-                <node x="158.0" y="520.0">TemplateMethode.Factory</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="TemplateMethode.Factory" target="TemplateMethode.FerrariBuilder">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="TemplateMethode.FerrariBuilder" target="TemplateMethode.CarBuilder">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="TemplateMethode.Factory" target="TemplateMethode.CarBuilder">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="TemplateMethode.RenaultBuilder" target="TemplateMethode.CarBuilder">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="TemplateMethode.Factory" target="TemplateMethode.RenaultBuilder">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="1.0" x="-85.5" y="161.0" />
-              <SelectedNodes>
-                <node>TemplateMethode.Factory</node>
-              </SelectedNodes>
-              <Categories>
-                <Category>Fields</Category>
-                <Category>Constructors</Category>
-                <Category>Methods</Category>
-                <Category>Properties</Category>
-                <Category>Inner Classes</Category>
-              </Categories>
-              <SCOPE>All</SCOPE>
-              <VISIBILITY>private</VISIBILITY>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Strategy/SreetFighter.java">
+        <entry file="file://$PROJECT_DIR$/src/Command/LightOffCommand.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="126">
-              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="44" />
+              <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+              <folding>
+                <element signature="e#117#118#0" expanded="true" />
+                <element signature="e#151#152#0" expanded="true" />
+                <element signature="e#195#196#0" expanded="true" />
+                <element signature="e#227#228#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Visitor/Visitor-UML.png">
-          <provider selected="true" editor-type-id="images" />
+        <entry file="file://$PROJECT_DIR$/src/Command/Music.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+              <folding>
+                <element signature="e#66#67#0" expanded="true" />
+                <element signature="e#106#107#0" expanded="true" />
+                <element signature="e#156#157#0" expanded="true" />
+                <element signature="e#211#212#0" expanded="true" />
+                <element signature="e#245#246#0" expanded="true" />
+                <element signature="e#285#286#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Command/MusicOnCommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="3" selection-start-line="3" selection-end-line="12" selection-end-column="5" />
+              <folding>
+                <element signature="e#134#135#0" expanded="true" />
+                <element signature="e#168#169#0" expanded="true" />
+                <element signature="e#210#211#0" expanded="true" />
+                <element signature="e#243#244#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Command/MusicOffCommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="3" selection-start-line="3" selection-end-line="12" selection-end-column="5" />
+              <folding>
+                <element signature="e#139#140#0" expanded="true" />
+                <element signature="e#173#174#0" expanded="true" />
+                <element signature="e#207#208#0" expanded="true" />
+                <element signature="e#226#227#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Command/MusicVolumeCommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+              <folding>
+                <element signature="e#314#315#0" expanded="true" />
+                <element signature="e#213#214#0" expanded="true" />
+                <element signature="e#246#247#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Command/RemoteControl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+              <folding>
+                <element signature="e#771#772#0" expanded="true" />
+                <element signature="e#794#795#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Observer/Magasin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+            <state relative-caret-position="54">
+              <caret line="3" column="28" lean-forward="true" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Command/RemoteControlTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="11" column="53" lean-forward="true" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -294,6 +188,16 @@
         <option value="$PROJECT_DIR$/src/TemplateMethode/FerariBuilder.java" />
         <option value="$PROJECT_DIR$/src/TemplateMethode/FerrariBuilder.java" />
         <option value="$PROJECT_DIR$/src/TemplateMethode/Factory.java" />
+        <option value="$PROJECT_DIR$/src/Command/Light.java" />
+        <option value="$PROJECT_DIR$/src/Command/command.java" />
+        <option value="$PROJECT_DIR$/src/Command/LightOnCommand.java" />
+        <option value="$PROJECT_DIR$/src/Command/LightOffCommand.java" />
+        <option value="$PROJECT_DIR$/src/Command/Music.java" />
+        <option value="$PROJECT_DIR$/src/Command/MusicOffCommand.java" />
+        <option value="$PROJECT_DIR$/src/Command/MusicOnCommand.java" />
+        <option value="$PROJECT_DIR$/src/Command/MusicVolumeCommand.java" />
+        <option value="$PROJECT_DIR$/src/Command/RemoteControl.java" />
+        <option value="$PROJECT_DIR$/src/Command/RemoteControlTest.java" />
       </list>
     </option>
   </component>
@@ -329,13 +233,13 @@
               <item name="DesignPatterns-GOF" type="b2602c69:ProjectViewProjectNode" />
               <item name="DesignPatterns-GOF" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="TemplateMethode" type="462c0819:PsiDirectoryNode" />
+              <item name="Command" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DesignPatterns-GOF" type="b2602c69:ProjectViewProjectNode" />
               <item name="DesignPatterns-GOF" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Visitor" type="462c0819:PsiDirectoryNode" />
+              <item name="Observer" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -346,7 +250,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546020307829" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546038777027" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/State" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -370,20 +274,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Factory">
-    <configuration name="ConnectedApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="State.ConnectedApp" />
-      <module name="DesignPatterns-GOF" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="State.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.RemoteControlTest">
     <configuration name="Factory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TemplateMethode.Factory" />
       <module name="DesignPatterns-GOF" />
@@ -423,6 +314,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RemoteControlTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Command.RemoteControlTest" />
+      <module name="DesignPatterns-GOF" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Command.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SreetFighter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Strategy.SreetFighter" />
       <module name="DesignPatterns-GOF" />
@@ -438,11 +342,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemoteControlTest" />
         <item itemvalue="Application.Factory" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Magasin" />
         <item itemvalue="Application.SreetFighter" />
-        <item itemvalue="Application.ConnectedApp" />
       </list>
     </recent_temporary>
   </component>
@@ -459,12 +363,12 @@
       <workItem from="1545958986976" duration="1976000" />
       <workItem from="1545961340226" duration="3238000" />
       <workItem from="1546019029763" duration="1144000" />
-      <workItem from="1546034035515" duration="273000" />
+      <workItem from="1546034035515" duration="3272000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6631000" />
+    <option name="totallyTimeSpent" value="9630000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="57" y="25" width="1543" height="875" extended-state="6" />
@@ -487,9 +391,9 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.33009708" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" visible="true" weight="0.32871014" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.499666" visible="true" weight="0.33009708" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.500334" side_tool="true" weight="0.33009708" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32871014" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -748,13 +652,6 @@
     <entry file="file://$PROJECT_DIR$/src/Visitor/Visitor-UML.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Observer/Magasin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Visitor/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -956,6 +853,130 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Command/Light.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#91#92#0" expanded="true" />
+            <element signature="e#131#132#0" expanded="true" />
+            <element signature="e#177#178#0" expanded="true" />
+            <element signature="e#241#242#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Command/Command.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Command/LightOnCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#128#129#0" expanded="true" />
+            <element signature="e#161#162#0" expanded="true" />
+            <element signature="e#204#205#0" expanded="true" />
+            <element signature="e#223#224#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Command/LightOffCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <folding>
+            <element signature="e#117#118#0" expanded="true" />
+            <element signature="e#151#152#0" expanded="true" />
+            <element signature="e#195#196#0" expanded="true" />
+            <element signature="e#227#228#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Command/Music.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="e#66#67#0" expanded="true" />
+            <element signature="e#106#107#0" expanded="true" />
+            <element signature="e#156#157#0" expanded="true" />
+            <element signature="e#211#212#0" expanded="true" />
+            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#285#286#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Command/MusicOffCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" selection-start-line="3" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <element signature="e#139#140#0" expanded="true" />
+            <element signature="e#173#174#0" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
+            <element signature="e#226#227#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Command/MusicOnCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" selection-start-line="3" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <element signature="e#134#135#0" expanded="true" />
+            <element signature="e#168#169#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#243#244#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Command/MusicVolumeCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+          <folding>
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#213#214#0" expanded="true" />
+            <element signature="e#246#247#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Observer/Magasin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="28" lean-forward="true" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Command/RemoteControl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+          <folding>
+            <element signature="e#771#772#0" expanded="true" />
+            <element signature="e#794#795#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Command/RemoteControlTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="53" lean-forward="true" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
         </state>
       </provider>
     </entry>

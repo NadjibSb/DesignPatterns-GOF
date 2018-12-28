@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="099264e4-029b-4e63-8197-1b519b1d1865" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/Fighter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/JumpBehavior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/KickBehavior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/LightningKick.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/LongJump.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/ShortJump.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/SreetFighter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/TornadoKick.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/characteres/ChunLi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/characteres/Ken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/characteres/Ryu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/strategy-UML.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -14,11 +25,102 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/State/ConnectedApp.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Strategy/characteres/Ken.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Strategy/characteres/Ryu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Strategy/characteres/ChunLi.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Strategy/SreetFighter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="uml://JAVA/State">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
             <state>
-              <caret lean-forward="true" />
+              <ID>JAVA</ID>
+              <OriginalElement>State</OriginalElement>
+              <nodes>
+                <node x="246.0" y="496.0">State.ConnectionEstablished</node>
+                <node x="492.0" y="496.0">State.ConnectionOpened</node>
+                <node x="0.0" y="644.0">State.ConnectedApp</node>
+                <node x="0.0" y="496.0">State.ConnectionClosed</node>
+                <node x="246.0" y="343.0">State.ConnectionState</node>
+                <node x="0.0" y="0.0">State.Connection</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="State.ConnectionClosed" target="State.ConnectionState">
+                  <point x="0.0" y="-51.5" />
+                  <point x="113.0" y="471.0" />
+                  <point x="283.66666666666663" y="471.0" />
+                  <point x="-75.33333333333337" y="51.5" />
+                </edge>
+                <edge source="State.ConnectionOpened" target="State.ConnectionState">
+                  <point x="0.0" y="-51.5" />
+                  <point x="605.0" y="471.0" />
+                  <point x="434.33333333333337" y="471.0" />
+                  <point x="75.33333333333337" y="51.5" />
+                </edge>
+                <edge source="State.ConnectionEstablished" target="State.ConnectionState">
+                  <point x="0.0" y="-51.5" />
+                  <point x="0.0" y="51.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.8466413181242078" x="375.5" y="384.5" />
+              <SelectedNodes>
+                <node>State.ConnectionEstablished</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Methods</Category>
+                <Category>Constructors</Category>
+                <Category>Fields</Category>
+                <Category>Properties</Category>
+                <Category>Inner Classes</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
             </state>
           </provider>
         </entry>
@@ -31,8 +133,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/State/ConnectedApp.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/State/ConnectedApp.java" />
+        <option value="$PROJECT_DIR$/src/Strategy/characteres/Ken.java" />
+        <option value="$PROJECT_DIR$/src/Strategy/characteres/Ryu.java" />
+        <option value="$PROJECT_DIR$/src/Strategy/characteres/ChunLi.java" />
+        <option value="$PROJECT_DIR$/src/Strategy/SreetFighter.java" />
       </list>
     </option>
   </component>
@@ -57,6 +163,23 @@
               <item name="DesignPatterns-GOF" type="b2602c69:ProjectViewProjectNode" />
               <item name="DesignPatterns-GOF" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="DesignPatterns-GOF" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPatterns-GOF" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignPatterns-GOF" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPatterns-GOF" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="State" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignPatterns-GOF" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPatterns-GOF" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Strategy" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -66,12 +189,14 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545959887722" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545960200145" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/State" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Strategy" />
       <recent name="$PROJECT_DIR$/src/State" />
     </key>
   </component>
@@ -87,7 +212,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.SreetFighter">
     <configuration name="ConnectedApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="State.ConnectedApp" />
       <module name="DesignPatterns-GOF" />
@@ -101,8 +226,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SreetFighter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strategy.SreetFighter" />
+      <module name="DesignPatterns-GOF" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Strategy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SreetFighter" />
         <item itemvalue="Application.ConnectedApp" />
       </list>
     </recent_temporary>
@@ -117,32 +256,32 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1545958985734</updated>
-      <workItem from="1545958986976" duration="799000" />
+      <workItem from="1545958986976" duration="1528000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="799000" />
+    <option name="totallyTimeSpent" value="1528000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="57" y="25" width="1543" height="875" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.249833" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.249833" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" weight="0.32871014" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.33009708" />
+      <window_info anchor="bottom" id="Terminal" weight="0.33009708" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32871014" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -162,17 +301,92 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/State/ConnectedApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/src/Strategy/characteres/Ken.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Strategy/characteres/Ryu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Strategy/characteres/ChunLi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Strategy/strategy-UML.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Strategy/SreetFighter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/State">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
-          <caret lean-forward="true" />
+          <ID>JAVA</ID>
+          <OriginalElement>State</OriginalElement>
+          <nodes>
+            <node x="246.0" y="496.0">State.ConnectionEstablished</node>
+            <node x="492.0" y="496.0">State.ConnectionOpened</node>
+            <node x="0.0" y="644.0">State.ConnectedApp</node>
+            <node x="0.0" y="496.0">State.ConnectionClosed</node>
+            <node x="246.0" y="343.0">State.ConnectionState</node>
+            <node x="0.0" y="0.0">State.Connection</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="State.ConnectionClosed" target="State.ConnectionState">
+              <point x="0.0" y="-51.5" />
+              <point x="113.0" y="471.0" />
+              <point x="283.66666666666663" y="471.0" />
+              <point x="-75.33333333333337" y="51.5" />
+            </edge>
+            <edge source="State.ConnectionOpened" target="State.ConnectionState">
+              <point x="0.0" y="-51.5" />
+              <point x="605.0" y="471.0" />
+              <point x="434.33333333333337" y="471.0" />
+              <point x="75.33333333333337" y="51.5" />
+            </edge>
+            <edge source="State.ConnectionEstablished" target="State.ConnectionState">
+              <point x="0.0" y="-51.5" />
+              <point x="0.0" y="51.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.8466413181242078" x="375.5" y="384.5" />
+          <SelectedNodes>
+            <node>State.ConnectionEstablished</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Methods</Category>
+            <Category>Constructors</Category>
+            <Category>Fields</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
